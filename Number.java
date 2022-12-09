@@ -1,9 +1,9 @@
-public class Exercise1 {
+public class Number {
  private int x;
- public Exercise1(){
+ public Number(){
   x=0;
  }
- public Exercise1(int x){
+ public Number(int x){
   this.x=x;
  }
  public boolean isNegative(){
@@ -35,7 +35,7 @@ public class Exercise1 {
  public static void main(String [] args) throws ArrayIndexOutOfBoundsException
  {
   int x=Integer.parseInt(args[0]);
-  Exercise1 m=new Exercise1(x);
+  Number m=new Number(x);
   if(m.isNegative())
    System.out.println("Number is Negative");
   if(m.isPositive())
